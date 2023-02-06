@@ -32,11 +32,12 @@ moviesUpdate();
 
 button.addEventListener('click', () => {
     let film = ('' + input.value).trim();
-    film = film[0].toUpperCase() + film.substring(1);
-    
+
     input.value = '';
     
     if (film !== '') {
+        film = film[0].toUpperCase() + film.substring(1);
+
         if (film.length > 21) {
             film = film.substring(0, 21) + '...';
         }
