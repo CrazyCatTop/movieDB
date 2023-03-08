@@ -43,7 +43,7 @@ button.addEventListener('click', () => {
         }
         
         if (checkbox.checked) {
-            alert('Добавляем любимый фальм');
+            alert('Добавляем любимый фильм');
             checkbox.checked = false;
         }
     
